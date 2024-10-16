@@ -21,3 +21,16 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+
+//console.log("Funzioni?");
+
+const secondStudent = students.find(student => student.id === 2);
+console.log(secondStudent);
+
+/* for (let i = 0; i < students.length; i++){
+  let student = students[i];
+  if (student.id === 2){
+    console.log(student);
+  }
+}
+ */
